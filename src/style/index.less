@@ -1,0 +1,32 @@
+@--primary-color: #4b76f6;
+@--background-color: #f7f7f7;
+
+@tabbar-background-color: @--primary-color;
+@button-primary-background-color: @--primary-color;
+@button-primary-border-color: @--primary-color;
+
+::-webkit-scrollbar {
+  width: 0;
+  height: 0;
+  color: transparent;
+}
+html,
+body {
+  background: @--background-color;
+}
+
+.manage .van-tabs__wrap {
+  background: #ffffff;
+  padding: 16px 0;
+  .van-tabs__nav--card {
+    border: none !important;
+    .van-tab {
+      margin: 0 20px;
+      // width: 260px !important;
+      // min-width: 260px !important;
+      // max-width: 260px !important;
+      border: 1px solid #cccccc !important;
+      border-radius: 20px !important;
+    }
+  }
+}
